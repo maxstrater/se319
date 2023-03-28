@@ -1,0 +1,30 @@
+{
+    "Squat":[
+        {
+            "exerciseName": "Squat",
+            "difficulty": "Intermediate",
+            "shortDescription": "Back squats are a lower body exercise where you hold a barbell on your upper back, then squat down until your thighs are parallel to the ground before standing back up. They primarily target the quadriceps, hamstrings, and glutes."
+        }
+    ],
+    "Bench Press":[
+        {
+            "exerciseName": "Bench Press",
+            "difficulty": "Intermediate",
+            "shortDescription": "Bench press is a classic strength training exercise that involves lifting a weighted barbell while lying on a bench, and is known for targeting and building the muscles of the chest, shoulders, and triceps."
+        }
+    ],
+    "Deadlift":[
+        {
+            "exerciseName": "Deadlift",
+            "difficulty": "Advanced",
+            "shortDescription": "Deadlifts are a popular compound exercise that work the muscles of the back, glutes, and hamstrings by lifting a weighted barbell off the ground using a hip hinge movement pattern. They can be done with heavy weights to improve overall strength and power."
+        }
+    ],
+    "Bicep Curls":[
+        {
+            "exerciseName": "Bicep Curls",
+            "difficulty": "Beginner",
+            "shortDescription": "Bicep curls are a popular isolation exercise that involve lifting a weight with your palms facing upwards to target and strengthen the biceps muscles in the front of your upper arm. They can be performed with a variety of equipment and are often included in arm workouts."
+        }
+    ]
+}

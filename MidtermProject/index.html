@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>ISU Fitness</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/blog/">
+
+  <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <style src="./blog.css" rel="stylesheet"></style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-
+alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-
+GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="./index.js"></script>
+</head>
+
+
+
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #squatContainer:hover,
+  #deadliftContainer:hover,
+  #curlContainer:hover,
+  #benchContainer:hover {
+    transition: all 0.5s ease-in-out;
+    background-color: lightgray;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+</style>
+
+
+<!-- Custom styles for this template -->
+
+</head>
+
+<body>
+
+  <div class="container" style="background-color: #e5e5e5; border-radius: 20px; opacity: 0.8;">
+    <header class="blog-header lh-1 py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-4 pt-1">
+        </div>
+        <div class="col-4 text-center" style="background-color: black; border-radius: 25px;">
+          <h1 style="color: white;"><strong>ISU FITNESS</strong></h1>
+        </div>
+        <div class="col-4 d-flex justify-content-end align-items-center">
+          <!-- <a class="link-secondary" href="#" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+              viewBox="0 0 24 24">
+              <title>Search</title>
+              <circle cx="10.5" cy="10.5" r="7.5" />
+              <path d="M21 21l-5.2-5.2" />
+            </svg>
+          </a>
+          <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a> -->
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller py-1 mb-2">
+      <nav class="nav d-flex justify-content-around">
+        <a style="color: black;" href="workout.html"><strong>Workout</strong></a>
+        <a style="color: black;" href="./info.html"><strong>Info</strong></a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <div class="p-4 p-md-5 mb-4 rounded text-bg-dark"
+      style="background-image: url('https://images.wallpaperscraft.com/image/single/barbell_gym_sport_205786_2560x1080.jpg'); object-fit: scale-down;">
+      <div class="col-md-6 px-0">
+        <h1 class="display-4 fst-italic" style="opacity: 1;">Best Workouts of 2023</h1>
+        <h5 style="opacity: 1;">Below are the best all-around workouts to do in 2023</h5>
+      </div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div id="squatContainer" class="col p-4 d-flex flex-column position-static">
+            <!-- <strong class="d-inline-block mb-2 text-primary">World</strong> -->
+            <h3 id="squatTitle" class="mb-0"></h3>
+            <div id="squatDifficulty" class="mb-1 text-muted">Nov 12</div>
+            <p id="squatDescription" class="card-text mb-auto">This is a wider card with supporting text below as a
+              natural lead-in to
+              additional content.</p>
+            <a href="squat.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://www.inspireusafoundation.org/wp-content/uploads/2022/03/barbell-full-squat.gif"
+              alt="squat" height="250" width="250">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div id="benchContainer" class="col p-4 d-flex flex-column position-static">
+            <!-- <strong class="d-inline-block mb-2 text-success">Design</strong> -->
+            <h3 id="benchTitle" class="mb-0"></h3>
+            <div id="benchDifficulty" class="mb-1 text-muted">Nov 11</div>
+            <p id="benchDescription" class="mb-auto">This is a wider card with supporting text below as a natural
+              lead-in to additional
+              content.</p>
+            <a href="benchpress.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://www.inspireusafoundation.org/wp-content/uploads/2022/05/barbell-pause-bench.gif"
+              alt="bench press" height="250" width="250">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div id="deadliftContainer" class="col p-4 d-flex flex-column position-static">
+            <!-- <strong class="d-inline-block mb-2 text-success">Design</strong> -->
+            <h3 id="deadliftTitle" class="mb-0">Post title</h3>
+            <div id="deadliftDifficulty" class="mb-1 text-muted">Nov 11</div>
+            <p id="deadliftDescription" class="mb-auto">This is a wider card with supporting text below as a natural
+              lead-in to additional
+              content.</p>
+            <a href="deadlift.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://www.inspireusafoundation.org/wp-content/uploads/2023/01/eccentric-deadlift.gif"
+              alt="deadlift" height="250" width="250">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div id="curlContainer" class="col p-4 d-flex flex-column position-static">
+            <!-- <strong class="d-inline-block mb-2 text-success">Design</strong> -->
+            <h3 id="curlTitle" class="mb-0">Post title</h3>
+            <div id="curlDifficulty" class="mb-1 text-muted">Nov 11</div>
+            <p id="curlDescription" class="mb-auto">This is a wider card with supporting text below as a natural lead-in
+              to additional
+              content.</p>
+            <a href="curl.html" class="stretched-link">Continue reading</a>
+          </div>
+          <div class="col-auto d-none d-lg-block">
+            <img src="https://homeworkouts.org/wp-content/uploads/anim-dumbbell-bicep-curls.gif" alt="bicep curl"
+              height="250" width="250">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-5">
+      <div class="col-md-8">
+        <h3 class="pb-4 mb-4 fst-italic border-bottom">
+          ISU Fitness
+        </h3>
+
+        <article class="blog-post">
+          <h2 class="blog-post-title mb-1"></h2>
+
+
+          <p>At our fitness company, we believe that fitness should be both fun and accessible for everyone.</p>
+          <hr>
+          <p>We strive to create a positive, inclusive community where individuals can improve their health and fitness
+            in an enjoyable and supportive environment.</p>
+          <hr>
+          <p>Our goal is to help our clients reach their fitness goals and live healthier, happier lives.</p>
+          <br>
+          <br>
+          <h2>Reviews</h2>
+          <blockquote class="blockquote">
+            <p>
+            <blockquote class="blockquote">
+              <p>"ISU Fitness has completely transformed my approach to exercise. Their innovative programs and
+                supportive community have helped me achieve my goals and feel my best."</p>
+              <p><i>-Not a real person</i></p>
+              <hr>
+            </blockquote>
+            </p>
+            <p>
+            <blockquote class="blockquote">
+              <p>"I'm so grateful to have found ISU Fitness. Their knowledgeable trainers and fun, energetic classes
+                make every workout feel like a party."</p>
+              <p><i>-Not a real person</i></p>
+              <hr>
+            </blockquote>
+            </p>
+            <p>
+            <blockquote class="blockquote">
+              <p>"ISU Fitness is hands-down the best fitness company out there. Their commitment to inclusivity and
+                accessibility means that everyone can benefit from their expertise and support."</p>
+              <p><i>-Not a real person</i></p>
+              <hr>
+            </blockquote>
+            </p>
+            <p>
+            <blockquote class="blockquote">
+              <p>"If you're looking to take your fitness to the next level, look no further than ISU Fitness. Their
+                personalized training programs and state-of-the-art equipment are second to none."</p>
+              <p><i>-Not a real person</i></p>
+              <hr>
+            </blockquote>
+            </p>
+            <p>
+            <blockquote class="blockquote">
+              <p>"Thanks to ISU Fitness, I've rediscovered my love of fitness. Their passion for helping others achieve
+                their goals is truly inspiring, and I can't recommend them enough."</p>
+              <p><i>-Not a real person</i></p>
+              <hr>
+            </blockquote>
+            </p>
+          </blockquote>
+          <p>Thank you for checking out our website!</p>
+
+
+      </div>
+
+      <div class="col-md-4">
+        <div class="position-sticky" style="top: 2rem;">
+          <div class="p-4 mb-3 bg-light rounded">
+            <h4 class="fst-italic">Fact of the Day!</h4>
+            <p class="mb-0">Laughing for just 10-15 minutes can burn between 10 and 40 calories, depending on a person's weight and the intensity of the laughter. So, if you're looking for a fun and easy way to burn a few extra calories, try watching a funny video or spending time with friends who make you laugh!</p>
+          </div>
+
+          <div class="p-4">
+            <h4 class="fst-italic">Other Resources</h4>
+            <ol class="list-unstyled mb-0">
+              <li><a href="workout.html">Workout</a></li>
+              <li><a href="./info.html">Info</a></li>
+              <li><p>More to come...</p></li>
+            </ol>
+          </div>
+
+          <!-- <div class="p-4">
+            <h4 class="fst-italic">Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="#">GitHub</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ol>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- <footer class="blog-footer">
+    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+        href="https://twitter.com/mdo">@mdo</a>.</p>
+    <p>
+      <a href="#">Back to top</a>
+    </p>
+  </footer> -->
+
+
+
+</body>
+
+</html>
